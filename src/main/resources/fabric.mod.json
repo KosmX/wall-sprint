@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wall-sprint",
+  "version": "${version}",
+  "name": "wall-sprint",
+  "description": "If you want config, please install Autoconfig 1u API and cloth config API\nIf you already did this, you can press the mod config up right",
+  "authors": [
+    "KosmX"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [],
+    "client": [
+      "wallSprint.ClientInit"
+    ],
+    "server": [],
+    "modmenu": [
+      "wallSprint.ConfigGui"
+    ]
+  },
+  "mixins": [
+    "wall-sprint.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8"
+  }
+}
